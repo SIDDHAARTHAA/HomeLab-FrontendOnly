@@ -1,7 +1,7 @@
 import CreateNewFolderRoundedIcon from '@mui/icons-material/CreateNewFolderRounded';
 import VerticalToggleButtons from './Toggle';
 import { useEffect, useRef, useState } from 'react';
-import Popup from './PopUp';
+import Popup from './Popup';
 import usePathStore from '../store/usePathStore.js'
 import { createFolder } from '@/lib/api';
 
